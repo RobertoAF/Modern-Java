@@ -28,7 +28,7 @@ public class PerfectNumbers {
 	}
 	
 	/**
-	 * A static method written in a in a procedural style that takes an integer 
+	 * A static method written in a procedural style that takes an integer 
 	 * as an argument and prints a range of perfect numbers from one to that 
 	 * argument.
 	 * 
