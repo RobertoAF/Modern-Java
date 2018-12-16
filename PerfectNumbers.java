@@ -19,7 +19,7 @@ public class PerfectNumbers {
 	 * the range of numbers
 	 */
 	public static void perfectNumbersTo_functional(int num) {	
-		IntStream integers = IntStream.rangeClosed(1,num)
+		IntStream integers = IntStream.rangeClosed(1, num)
 			.filter(x -> (IntStream.range(1, x)
 			        .filter(n -> x % n == 0)
 			        .reduce(0, (a, b) -> a + b))
